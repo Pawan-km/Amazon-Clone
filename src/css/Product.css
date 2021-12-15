@@ -29,3 +29,16 @@
   border-color: yellow;
   color: #111;
 }
+
+/* ======== Media Query ============ */
+
+@media only screen and (max-width: 650px) {
+  .product > img {
+    width: 58%;
+  }
+
+  .product{
+    margin: 14px;
+    padding: 10px;
+  }
+}

@@ -18,3 +18,11 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+
+/* ======== Media Query ============ */
+
+@media only screen and (max-width: 650px) {
+  .home__image{
+    margin-bottom: -100px;
+  }
+}
