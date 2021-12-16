@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .home {
   display: flex;
   justify-content: center;
@@ -6,9 +10,10 @@
   max-width: 1500px;
 }
 .home__image {
-  width: 100%;
+  width:100%;
   z-index: -1;
   margin-bottom: -150px;
+
   /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
 }
 
@@ -21,8 +26,19 @@
 
 /* ======== Media Query ============ */
 
+
+
 @media only screen and (max-width: 650px) {
   .home__image{
     margin-bottom: -100px;
+  }
+  .home__row{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .home__image{
+    margin-bottom: -10px;
   }
 }

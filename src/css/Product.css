@@ -1,9 +1,10 @@
 .product {
   display: flex;
   flex-direction: column;
+  margin: 5px;
   align-items: center;
+  box-sizing: border-box;
   justify-content: flex-end;
-  margin: 10px;
   padding: 20px;
   width: 100%;
   max-height: 400px;
@@ -15,19 +16,26 @@
 .product__rating {
   display: flex;
 }
-.product > img {
+.right_side > img {
   max-height: 200px;
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
 }
 
-.product > button {
+.right__side{
+  display: flex;
+  flex-direction: column;
+}
+
+.right_side > button {
   background: #f0c14b;
   border: 1px solid;
   margin-top: 10px;
   border-color: yellow;
   color: #111;
+  align-self: center;
+  justify-self: center;
 }
 
 /* ======== Media Query ============ */
@@ -38,7 +46,10 @@
   }
 
   .product{
-    margin: 14px;
+    box-sizing:border-box;
+    margin: 4px;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 10px;
   }
 }

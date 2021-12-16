@@ -16,6 +16,7 @@ function Header() {
     }
     return (
         <div className="header">
+            <div className="header__upper">
             <Link to="/">
             <img className="header__logo" src="https://onlinebusinessmanager.com/wp-content/uploads/2018/09/white-amazon-logo-png-6.png" alt="" />
             </Link>
@@ -23,7 +24,8 @@ function Header() {
                 <input className="header__searchInput" type="text" />
                 <SearchIcon className="header__searchIcon" />
             </div>
-
+            </div>
+            {/* <div className="header__down"> */}
             <div className="header__nav">
               <Link to={!user && '/login'}>
                 <div onClick={handleAuthentication} className="header__option">
@@ -47,6 +49,7 @@ function Header() {
                 </div>
                 </Link>
             </div>
+            {/* </div> */}
 
         </div>
     )
