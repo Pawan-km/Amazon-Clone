@@ -30,7 +30,7 @@
 
 @media only screen and (max-width: 650px) {
   .home__image{
-    margin-bottom: -100px;
+    margin-bottom: -15px;
   }
   .home__row{
     flex-direction: column;
