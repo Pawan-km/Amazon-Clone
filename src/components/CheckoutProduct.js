@@ -19,7 +19,7 @@ function CheckoutProduct({id, image, title, rating, price}) {
 
             <div className="checkoutProduct__info">
                 <p className="checkoutProduct__title"><strong>{title}</strong></p>
-                <p className="checkoutProduct__price"> <strong>Rs. {rating} </strong></p>
+                <p className="checkoutProduct__price"> <strong>Rs. {price} </strong></p>
                 <div className="checkoutProduct__rating">
                     {Array(rating)
                     .fill()
