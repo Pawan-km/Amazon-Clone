@@ -135,7 +135,7 @@ function Payment() {
                             prefix={"₹"}
                         />
                         <button disabled={processing || disabled || succeeded}>
-                            <span>{processing ? <p>Processing</p> : 
+                            <span className='buy__button'>{processing ? <p>Processing</p> : 
                             "Buy Now"}</span>
                         </button>
                             </div>

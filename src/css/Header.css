@@ -19,6 +19,7 @@
   height: 22px !important;
   padding: 5px;
   background-color: #cd9842;
+  cursor: pointer;
 }
 
 .header__search {

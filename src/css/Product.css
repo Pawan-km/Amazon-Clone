@@ -36,6 +36,7 @@
   color: #111;
   align-self: center;
   justify-self: center;
+  cursor: pointer;
 }
 
 /* ======== Media Query ============ */

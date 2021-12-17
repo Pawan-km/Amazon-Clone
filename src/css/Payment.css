@@ -25,6 +25,10 @@
   flex: 0.2;
 }
 
+.buy__button{
+  cursor: pointer;
+}
+
 .payment__address,
 .payment__items,
 .payment__details {
