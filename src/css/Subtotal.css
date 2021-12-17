@@ -28,3 +28,14 @@
   border-color: orange;
   color: #111;
 }
+
+
+
+@media only screen and (max-width: 650px) {
+  .subtotal{
+    width: 250px;
+  }
+  .subtotal > button{
+    width: 85%;
+  }
+}

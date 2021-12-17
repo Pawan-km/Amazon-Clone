@@ -96,7 +96,7 @@ function Payment() {
                         <p>Badarpur, Delhi</p>
                     </div>
                 </div>
-                <div className="payment__section">
+                <div className="payment__section mid-section">
                     <div className="payment__title">
                         <h3>Review items and delivery</h3>
                     </div>

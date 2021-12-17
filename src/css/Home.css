@@ -34,6 +34,7 @@
   }
   .home__row{
     flex-direction: column;
+    align-items: center;
   }
 }
 

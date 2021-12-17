@@ -45,6 +45,9 @@
     width: 58%;
   }
 
+  .right_side > img {
+    max-height: 140px;
+  }
   .product{
     box-sizing:border-box;
     margin: 4px;
